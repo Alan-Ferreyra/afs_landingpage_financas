@@ -1,0 +1,73 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+.navbar {
+  background-color: black;
+}
+
+.nav .nav-link.active,
+.nav-link.active i {
+  background-color: gold;
+  color: black;
+}
+
+.nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover {
+  color: gold;
+}
+
+.navbar-toggler {
+  background-color: #ffd9006e;
+}
+
+.section-title {
+  font-family: "Roboto", sans-serif;
+}
+
+.section-title span,
+.text-colored {
+  background-color: gold;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+#sobre-nos {
+  background-color: rgba(0, 0, 0, 0.11);
+  /* background-color: rgba(255, 217, 0, 0.116); */
+}
+
+i {
+  color: gold;
+}
+
+#investimentos {
+  background-color: rgba(0, 0, 0, 0.11);
+}
+
+#investimentos .nav-link {
+  color: black;
+}
+
+/* #contato {
+  background-color: white;
+} */
+
+.social-links li {
+  list-style: none;
+  display: inline;
+}
+
+.social-links a {
+  text-decoration: none;
+}
+
+@media (max-width: 767px) {
+  .carousel-item img {
+    height: 280px;
+  }
+
+  #sobre-nos .section-title {
+    padding: 10px;
+  }
+}
